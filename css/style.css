@@ -2,6 +2,10 @@ body,section,ul,li,nav,article,div,h4{
 	margin:0;
 	padding:0;
 }
+.cf:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.cf{*+height:1%;}
+.fl{float: left;}
+.fr{float: right;}
 img{
 	max-width: 100%;
 	height: auto;
